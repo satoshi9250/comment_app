@@ -1,0 +1,11 @@
+<div class="body-box">
+  <div class="container">
+    <h1>ユーザー一覧</h1>
+    <%= link_to "ホームへ戻る", posts_path %>
+    <hr>
+    <% @users.each do |user| %>
+      <a href="/users/<%= user.id %>"><%= user.nickname %></a>
+      <hr>
+    <% end %>
+  </div>
+</div>

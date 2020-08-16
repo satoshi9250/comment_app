@@ -1,0 +1,21 @@
+<div class="body-box">
+  <div class="container">
+    <h1>ユーザー詳細ページ</h1>
+    <%= link_to "ユーザー一覧へ", users_path %>
+    <%= link_to "ホームへ戻る", posts_path %>
+     <hr>
+    <img src=<%= @user.image %> class = "icon_image">
+     <hr>
+    <h3><%= @user.nickname %></h3>
+    <h2>投稿内容</h2>
+    <% @user.posts.each do |post| %>
+      <a href="/posts/<%= post.id %>"><%= post.content %></a>
+      <hr>
+    <% end %>
+    <h3>いいねしている投稿</h3>
+    <% @user.liked_posts.each do |post| %>
+      <%= post.user.nickname %>
+      <%= post.content %>
+    <% end %>
+  </div>
+</div>
