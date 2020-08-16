@@ -1,5 +1,10 @@
 # README
 
+# Post Communication
+ユーザーが投稿に対してコメントをすること出来る、コミニケーションを目的としたアプリを制作している。
+TECH CAMPで学んだHTML/SCSS、GAM DEVISEを利用して、ユーザーログイン機能を実装をアプトプットする為に制作しました。
+https://comment-app-a.herokuapp.com/
+
 ## users table​
 |Column|Type|Options|
 |------|----|-------|
