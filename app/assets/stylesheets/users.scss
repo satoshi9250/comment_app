@@ -1,0 +1,39 @@
+.icon_image {
+  width: 200px;
+  height: 200px;
+  //サイズ指定
+  border-radius: 100px;
+  //画像を丸くする
+  object-fit: cover;
+  //タテヨコ比を変えないままトリミング
+}
+
+h2 {
+  color: black;
+  font-size: 50px;
+}
+
+.box {
+  margin: 100px 100px;
+  .field {
+    margin: 50px 50px;
+    label {
+      font-size: 30px;
+    }
+    .input {
+      height: 100px;
+    }
+  }
+  .actions {
+    margin: 50px 50px;
+    input {
+      height: 50px;
+      width: 100px;
+      font-size: 30px;
+    }
+  }
+
+  a{
+    color: white;
+  }
+}
