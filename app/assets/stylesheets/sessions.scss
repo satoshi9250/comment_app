@@ -1,0 +1,28 @@
+.group {
+  margin: 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .box {
+    width: 500px;
+    height: 800px;
+    background-image: url(joanna-kosinska-mjC9apK53a8-unsplash.jpg);
+    background-size: 800px 500px;
+    padding: 50px 50px;
+    a{
+      color: black;
+    }
+    input {
+      width: 300px;
+      height: 40px;
+    }
+    .actions{
+      margin-top: 10px;
+      input {
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+      }
+    }
+  }
+}
